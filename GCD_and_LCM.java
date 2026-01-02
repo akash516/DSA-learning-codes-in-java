@@ -1,5 +1,5 @@
 import java.util.*;
-public class GCD{
+public class GCD_and_LCM{
     //brute force approach
     static int GCDBF(int a, int b){
         int gcd=1;
@@ -27,6 +27,9 @@ static int GCDRecursive(int x, int y){//Euclid's algorithm
     }
     return GCDRecursive(y, x%y);
 }
+static int LCM(int a, int b){
+    return (a*b)/GCDRecursive(a, b);
+}
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter first number: ");
@@ -36,6 +39,7 @@ static int GCDRecursive(int x, int y){//Euclid's algorithm
         System.out.println("GCD of "+a+" and "+b+" is: "+GCDBF(a,b));
         System.out.println("GCD of "+a+" and "+b+" is: "+GCDOptimal(a,b));
         System.out.println("GCD of "+a+" and "+b+" is: "+GCDRecursive(a,b));
+        System.out.println("LCM of "+a+" and "+b+" is: "+LCM(a,b));
         sc.close();
     }
 }
