@@ -31,5 +31,6 @@ public class Smallest_2nd {
             arr[i] = sc.nextInt();
         }
         System.out.println("Second smallest number of the given data= "+SecondSmoll(arr));
+        sc.close();
     }
 }

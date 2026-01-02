@@ -53,6 +53,7 @@ public class SpiralMatrix {
         print2Darray(a);
         System.out.println("Spiraled matrix: ");
         spiralmatrix(a,r,c);
+        sc.close();
     }
 }
 

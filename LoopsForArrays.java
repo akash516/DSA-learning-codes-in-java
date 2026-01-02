@@ -105,6 +105,7 @@ class  forloop {
             }
         }
         System.out.println("Number of digits strictly greater than "+x+" = "+ans);
+        sc.close();
     }
 
 }

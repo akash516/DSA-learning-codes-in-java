@@ -32,7 +32,7 @@ public class SecondHighest {
              arr[i]=sc.nextInt();
          }
          System.out.println("Second largest element in the array is: " +secondmax(arr));
-
+         sc.close();
      }
 }
 

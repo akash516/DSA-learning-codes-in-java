@@ -11,8 +11,7 @@ public class trianglepattern {
                 System.out.print("*");
             }
             System.out.println();
+            sc.close();
         }
-
-
     }
 }

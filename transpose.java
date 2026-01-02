@@ -36,5 +36,6 @@ public class transpose {
         print2Darray(a);
         System.out.println("Transposed matrix: ");
         transpose(a,r,c);
+        sc.close();
     }
 }

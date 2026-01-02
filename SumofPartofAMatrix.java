@@ -53,6 +53,7 @@ public class SumofPartofAMatrix {
         int l2 = sc.nextInt();
         int r2 = sc.nextInt();
         System.out.println("Required sum: " + sumoflimits(arr, l1, r1, l2, r2));
+        sc.close();
     }
 }
 
