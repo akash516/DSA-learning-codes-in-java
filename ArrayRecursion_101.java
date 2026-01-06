@@ -1,5 +1,5 @@
 import java.util.*;
-public class ArrayRecursion101{
+public class ArrayRecursion_101{
     static void printarr(int [] arr, int idx){
         if(arr.length==idx){// base case
             return;
