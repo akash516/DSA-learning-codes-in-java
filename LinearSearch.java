@@ -43,5 +43,6 @@ public class LinearSearch {
         int resultIndex = Search_Index(arr, 0, target);
         if(resultIndex!=-1)
              System.out.println("Element found at Index: "+resultIndex);
-    }
+         sc.close();
+            }
 }
